@@ -1,3 +1,5 @@
 Start: Mon, 20 Apr 2015 23:20:00 -0800
 End: Mon, 20 Apr 2015 23:53:25 -0800
 Tasks: During this period, I ran the tests from the qunit_runner page for the first time, and then I wrote the requested functions within variables.js.
+
+Start: Mon, 21 Apr 2015 11:30:39 -0800
