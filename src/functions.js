@@ -13,7 +13,10 @@
 */
 
 //your code here
-
+uselessFunction()
+{
+	return {null};
+}
 //end your code
 
 var bar = 'not a function';
@@ -30,7 +33,7 @@ var barType = typeof bar;
 */
 
 //your code here
-
+barFunction()
 //end your code
 
 /**
