@@ -5,3 +5,7 @@ Tasks: During this period, I ran the tests from the qunit_runner page for the fi
 Start: Tue, 21 Apr 2015 11:30:39 -0800
 End: Tue, 21 Apr 2015 12:30:05 -0800
 Tasks: During this period, I wrote some of the functions within functions.js
+
+Start: Tue, 21 Apr 2015 21:41:25 -0800
+End: Tue, 21 Apr 2015 22:21:50 -0800
+Tasks: During this period, I revised some of the functions within functions.js

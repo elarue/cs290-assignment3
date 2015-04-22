@@ -13,9 +13,9 @@
 */
 
 //your code here
-uselessFunction()
+function uselessFunction()
 {
-	return {null};
+	return null;
 }
 //end your code
 
@@ -33,7 +33,16 @@ var barType = typeof bar;
 */
 
 //your code here
-barFunction()
+function barFunction(doubleArray[])
+{
+	for(var i = 0; i < doubleArray.length; i++)
+	{
+		doubleArray[i] = doubleArray[i] * 2;
+		if doubleArray[i] = NaN
+			return false;
+	}
+	return true;
+}
 //end your code
 
 /**
