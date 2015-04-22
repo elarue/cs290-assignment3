@@ -8,9 +8,15 @@
 * @return {object} - the object literal
 */
 
+var cracker = new Object()
+cracker.type = 'Goldfish'
+cracker.brand = 'Pepperidge Farm'
+cracker.flavor = 'Cheddar'
+cracker.count = 2000
+
 function returnObjectLiteral() {
   //your code here
-  return undefined; //Modify ONLY this line
+  return cracker; //Modify ONLY this line
   //end your code
 }
 
@@ -38,6 +44,23 @@ function returnObjectLiteral() {
 */
 
 //your code here
+function MessageLog(user)
+{
+	this.totalSent = 0;
+	this.totalReceived = 0;
+	this.logMessage = function (messageText, direction)
+	{
+		var direction
+		if(direction == 0)
+			this.totalSent++;
+			return 'sent';
+		else if(direction == 1)
+			this.totalReceived++;
+			return 'received'
+	}
+	this.getSentMessage = function (n)
+	{}
+	
 
 //end your code
 

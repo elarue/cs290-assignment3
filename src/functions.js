@@ -33,7 +33,7 @@ var barType = typeof bar;
 */
 
 //your code here
-function barFunction(doubleArray[])
+bar = function (doubleArray[])
 {
 	for(var i = 0; i < doubleArray.length; i++)
 	{
