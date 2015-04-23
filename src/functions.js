@@ -33,7 +33,8 @@ var barType = typeof bar;
 */
 
 //your code here
-bar = function (doubleArray[])
+doubleArray = new Array(arrayLength)
+bar = function (doubleArray)
 {
 	for(var i = 0; i < doubleArray.length; i++)
 	{
@@ -78,5 +79,19 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+function parseGit()
+{
+	var logarray;
+	var j = 0;
+	while(var newlog = (git log --pretty=format:"%h %ad \"%s\"" --date=rfc) != null)
+	{
+		var hash = newlog.split(' ')[0];
+		var date = newlog.split(' ')[1] + newlog.split(' ')[2] + newlog.split(' ')[3] +newlog.split(' ')[4] + newlog.split(' ')[5] + newlog.split(' ')[6];
+		var message = newlog.split(' ')[7];
+		logArray[j] = Gitlog(hash, date, message);
+		j++
+	}
+}
+	
 
 //end your code

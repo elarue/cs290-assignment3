@@ -70,7 +70,7 @@ function MessageLog(user)
 * received.
 */
 //your code here
-
+MessageLog.lastReceivedMessage()
 //end your code
 
 /**
