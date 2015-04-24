@@ -8,11 +8,11 @@
 * @return {object} - the object literal
 */
 
-var cracker = new Object()
+var cracker = {
 cracker.type = 'Goldfish'
 cracker.brand = 'Pepperidge Farm'
 cracker.flavor = 'Cheddar'
-cracker.count = 2000
+cracker.count = 2000 }
 
 function returnObjectLiteral() {
   //your code here

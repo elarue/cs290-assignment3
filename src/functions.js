@@ -79,12 +79,13 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
-function parseGit()
+function parseGit(logs)
 {
 	var logarray;
 	var j = 0;
-	while(var newlog = (git log --pretty=format:"%h %ad \"%s\"" --date=rfc) != null)
+	while(logs[j] = (git log --pretty=format:"%h %ad \"%s\"" --date=rfc) != null)
 	{
+		var newlog = logs[j];
 		var hash = newlog.split(' ')[0];
 		var date = newlog.split(' ')[1] + newlog.split(' ')[2] + newlog.split(' ')[3] +newlog.split(' ')[4] + newlog.split(' ')[5] + newlog.split(' ')[6];
 		var message = newlog.split(' ')[7];

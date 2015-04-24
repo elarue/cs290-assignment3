@@ -17,3 +17,7 @@ Tasks: During this period, I revised objects.js as well as revised functions.js
 Start: Wed, 22 Apr 2015 21:50:53 -0800
 End: Wed, 22 Apr 2015 23:07:26 -0800
 Tasks: During this period, I revised the parseGit function in functions.js, as well as added the lastMessageReceived instance in objects.js
+
+Start: Thu, 23 Apr 2015 20:31:20 -0800
+End: Thu, 23 Apr 2015 21:45:21 -0800
+Tasks: Revised the parseGit function in functions.js
