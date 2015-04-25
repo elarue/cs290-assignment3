@@ -21,3 +21,11 @@ Tasks: During this period, I revised the parseGit function in functions.js, as w
 Start: Thu, 23 Apr 2015 20:31:20 -0800
 End: Thu, 23 Apr 2015 21:45:21 -0800
 Tasks: Revised the parseGit function in functions.js
+
+Start: Fri, 24 Apr 2015 14:36:10 -0800
+End: Fri, 24 Apr 2015 17:31:53 -0800
+Tasks: Wrote HTML and Javascript code for Assignment 3, Part 2
+
+Start: Sat, 25 Apr 2015 01:18:33 -0800
+End: Sat, 25 Apr 2015 02:47:44 -0800
+Tasks: Revised Javascript code for Assignment 3, Part 2
