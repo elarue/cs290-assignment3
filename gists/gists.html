@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<script src="gists.js"></script>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>JS Bin</title>
+  <title>Eric LaRue - Assignment 3</title>
 </head>
 <body>
 <form>
@@ -11,12 +12,14 @@
   <input type="radio" name="language" value="JSON">JSON
   <input type="radio" name="language" value="Python">Python<br>
   <input type="text">
-  <input type="submit" value="Fetch GISTS">
+  <input type="button" type=“button” onclick=“FetchGists()” value="Fetch GISTS">
 </form>
   <br>
   <b>GISTS</b>
   <div id="GISTS">
     This div is called "GISTS"
+    <ul id = "gists-list">
+    </ul>
   </div>
   <br>
   <b>Favorite GISTS</b>

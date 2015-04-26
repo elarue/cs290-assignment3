@@ -29,3 +29,19 @@ Tasks: Wrote HTML and Javascript code for Assignment 3, Part 2
 Start: Sat, 25 Apr 2015 01:18:33 -0800
 End: Sat, 25 Apr 2015 02:47:44 -0800
 Tasks: Revised Javascript code for Assignment 3, Part 2
+
+Start: Sat, 25 Apr 2015 10:52:57 -0800
+End: Sat, 25 Apr 2015 14:33:38 -0800
+Tasks: Updated HTML and Javascript code for Assignment 3, Part 2
+
+Start: Sat, 25 Apr 2015 15:12:20 -0800
+End: Sat, 25 Apr 2015 17:01:49 -0800
+Tasks: Updated HTML and Javascript code for Assignment 3, Part 2
+
+Start: Sat, 25 Apr 2015 23:55:01 -0800
+End: Sun, 26 Apr 2015 23:30:00 -0800
+Tasks: Rewrote HTML and Javascript code for Assignment 3, Part 2, to follow a procedure demonstrated to us during a study group.  (No actual code was copied).
+
+Start: Sat, 26 Apr 2015 12:07:16 -0800
+End:
+Tasks: 
