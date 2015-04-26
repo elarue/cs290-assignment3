@@ -46,12 +46,14 @@ function loadGists()
   var gistURL = [];
   var gistDesc = [];
   var gistLang = [];
+  var gistID = [];
   
   for(var i = 0; i < requestsRetrieved.length; i++)
     {
       gistURL[i] = requestsRetrieved[i].url;
       gistDesc[i] = requestsRetrieved[i].description;
       gistLang[i] = requestsRetrieved[i].language;
+      gistID[i] = requestsRetrieved[i].id;
     }
   
   var gistList = document.createElement('ul');
@@ -66,7 +68,7 @@ function loadGists()
       gistList.appendChild(listTitle); */
       
       var listDesc = document.createElement('li');
-      listDesc.innerText = gistDesc[j] + '\n' + gistURL[j] + ' ' + gistLang[j];
+      listDesc.innerHTML = gistDesc[j] + '<br>' + gistURL[j] + '<br>' + gistLang[j];
       gistList.appendChild(listDesc);
       
     }
