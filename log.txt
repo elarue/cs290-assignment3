@@ -42,6 +42,10 @@ Start: Sat, 25 Apr 2015 23:55:01 -0800
 End: Sun, 26 Apr 2015 23:30:00 -0800
 Tasks: Rewrote HTML and Javascript code for Assignment 3, Part 2, to follow a procedure demonstrated to us during a study group.  (No actual code was copied).
 
-Start: Sat, 26 Apr 2015 12:07:16 -0800
+Start: Sun, 26 Apr 2015 12:07:16 -0800
+End: Sun, 26 Apr 2015 15:43:40 -0800
+Tasks: Updated HTML and Javascript code in gists2.html and gists2.js.  Was able to get a list of gists to display.  Still not able to add the button to add to a list of favorites.
+
+Start: Sun, 26 Apr 2015 19:27:22 -0800
 End:
 Tasks: 

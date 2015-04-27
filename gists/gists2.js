@@ -52,7 +52,7 @@ function loadGists()
     {
       gistURL[i] = requestsRetrieved[i].url;
       gistDesc[i] = requestsRetrieved[i].description;
-      gistLang[i] = requestsRetrieved[i].language;
+      gistLang[i] = requestsRetrieved[i].files.language;
       gistID[i] = requestsRetrieved[i].id;
     }
   
@@ -68,11 +68,26 @@ function loadGists()
       gistList.appendChild(listTitle); */
       
       var listDesc = document.createElement('li');
-      listDesc.innerHTML = gistDesc[j] + '<br>' + gistURL[j] + '<br>' + gistLang[j];
+      var HTMLlink = document.createElement('a');
+      HTMLlink.setAttribute("href", gistURL[j]);
+      listDesc.innerHTML = gistDesc[j] + '<br>' + HTMLlink + '<br>' + gistLang[j];
+      //following code from piazza discussion https://piazza.com/class/i7nxjgezs1b2wt?cid=184 typed manually.
+/*var fbutton = document.createElement("button");
+fbutton.innerHTML = "+";
+fbutton.setAttribute("gistIDno", gistID[j]);
+fbutton.onclick = addFavorite(gistIDno);
+      listDesc.appendChild(fbutton);*/
       gistList.appendChild(listDesc);
       
     }
   
   var listOfGists = document.getElementById('gists');
   listOfGists.appendChild(gistList);
+}
+
+function addFavorite(gistIDno)
+{
+	var gistIDnum = this.getAttribute("gistIDno");
+	var toBeFavoredGist = findByID(gistIDnum);
+	fav_list.push(toBeFavoredGist);
 }
