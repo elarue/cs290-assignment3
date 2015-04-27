@@ -47,5 +47,5 @@ End: Sun, 26 Apr 2015 15:43:40 -0800
 Tasks: Updated HTML and Javascript code in gists2.html and gists2.js.  Was able to get a list of gists to display.  Still not able to add the button to add to a list of favorites.
 
 Start: Sun, 26 Apr 2015 19:27:22 -0800
-End:
-Tasks: 
+End: Sun, 26 Apr 2015 23:44:16 -0800
+Tasks: Updated HTML and Javascript code into a new file in gists3.html and gists3.js.  Added gists.css.
