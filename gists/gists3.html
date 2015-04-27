@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Eric LaRue - Assignment 3</title>
+  <script src="gists2.js"></script>
+  <LINK href="gists.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div>
+    <form id="gistSelect">
+      <span>Select gist information:</span>
+
+      <input type="radio" name="gistLang" value="Javascript">Javascript
+      <input type="radio" name="gistLang" value="SQL">SQL
+      <input type="radio" name="gistLang" value="JSON">JSON
+      <input type="radio" name="gistLang" value="Python">Python
+      <input type="radio" name="gistLang" value="all">Select all
+
+      <input id="gistParam" type="text" name="gistParam">
+      <input id="button" type="button" onclick="gistSearch();" value="Search">
+    </form>
+  </div>
+  <div id="gists">
+    <h2>Gists</h2>
+    <ul id="ul-gists"></ul>
+  </div>
+  <div id="favGists">
+    <h2>Favorite Gists</h2>
+    <ul id="ul-favs"></ul>
+  </div>
+</body>
+</html>
